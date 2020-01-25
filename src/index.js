@@ -15,6 +15,16 @@ const initialSate = {
       text: 'Default todo is to test my app',
       completed: false,
     },
+    {
+      id: Math.ceil(Math.random() * 10),
+      text: 'Next is to remove todo',
+      completed: false,
+    },
+    {
+      id: Math.ceil(Math.random() * 10),
+      text: 'Next is to add todo form',
+      completed: false,
+    },
   ],
 };
 const store = createStore(rootReducer, initialSate);

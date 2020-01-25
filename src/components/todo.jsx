@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Todo = ({ id, text, completed, onClick }) => (
+const Todo = ({
+  id, text, completed, onClick,
+}) => (
   <li
     onClick={onClick}
     onKeyDown={() => {}}

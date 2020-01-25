@@ -20,9 +20,9 @@ export const addTodo = text => ({
   text,
 });
 
-export const deleteTodo = index => ({
+export const deleteTodo = id => ({
   type: REMOVE_TODO,
-  index,
+  id,
 });
 
 export const setVisibilityFilter = filter => ({
