@@ -1,8 +1,13 @@
 import React from 'react';
+import Footer from './footer';
+import VisibleTodoList from '../containers/visibleTodoList';
 import '../css/App.css';
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => (
+  <div>
+    <VisibleTodoList />
+    <Footer />
+  </div>
+);
 
 export default App;
