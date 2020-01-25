@@ -14,10 +14,9 @@ export const toggleTodo = id => ({
   id,
 });
 
-const nextTodoId = 0;
 export const addTodo = text => ({
   type: ADD_TODO,
-  id: nextTodoId + 1,
+  id: Math.ceil(Math.random() * 100),
   text,
 });
 
