@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import { VisibilityFilters } from './actions/action';
 import rootReducer from './reducers';
 import App from './components/App';
 import './index.css';
-import { VisibilityFilters } from './actions/action';
 
 const initialSate = {
-  VisibilityFilter: VisibilityFilters.SHOW_ALL,
+  visibilityFilter: VisibilityFilters.SHOW_ALL,
   todos: [
     {
       id: Math.ceil(Math.random() * 10),

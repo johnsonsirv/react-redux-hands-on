@@ -9,6 +9,7 @@ const TodoList = ({ todos, onTodoClick }) => (
       return (
         <Todo
           key={id}
+          id={id}
           text={text}
           completed={completed}
           onClick={() => onTodoClick(id)}
@@ -19,7 +20,7 @@ const TodoList = ({ todos, onTodoClick }) => (
 );
 
 TodoList.propTypes = {
-  todos: PropTypes.arraryOf(
+  todos: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       completed: PropTypes.bool.isRequired,
