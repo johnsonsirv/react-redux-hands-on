@@ -8,7 +8,6 @@ const mapStateToProps = (state, ownProps) => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   onClick: () => {
-    console.log('dispatch sent ownprops filter', ownProps.filter);
     dispatch(setVisibilityFilter(ownProps.filter));
   },
 });
