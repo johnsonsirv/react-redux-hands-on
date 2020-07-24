@@ -1,6 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">React-Redux Hands-on (Simple Todo List App)</h1>
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Demonstrates how to use React/Redux to build a simple todo list app. All implementations are minimal, with focus on learning and practising the core concepts of redux.
+
+## Built with:
+- Create React App
+- Redux
+- React
+
+## Installation:
+
+> Clone the repository to your local machine
+
+```sh
+$ git clone https://github.com/johnsonsirv/react-redux-hands-on.git
+```
+
+## Usage:
+
+> navigate ```cd``` into the cloned directory
+
+```sh
+$ cd react-redux-hands-on
+```
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -37,32 +59,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Contributor(s)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Victor Okeugo](https://angel.co/u/victorokeugo/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@johnsonsirv](https://github.com/johnsonsirv)
+- Twitter: [@vokeugo](https://twitter.com/@vokeugo/)
+- Email: [okeugo.victor.c@gmail.com]()
 
-### Code Splitting
+## Contributing
+1. Fork it https://github.com/johnsonsirv/react-redux-hands-on/fork)
+2. Create your feature(dev) branch (git checkout -b feature/[choose-a-name])
+3. Commit your changes (git commit -m 'What this commit will fix/add')
+4. Push to the branch (git push origin feature/[chosen name])
+5. Create a new Pull Request
+> You can also create [issues](https://github.com/johnsonsirv/react-redux-hands-on/issues)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details
